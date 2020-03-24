@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #000080;
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
