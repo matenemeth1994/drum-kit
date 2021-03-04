@@ -1,38 +1,73 @@
-body {
-  text-align: center;
-  background-color: #000080;
-  color: white;
+#body {
+    background: url(images/drum.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'New Rocker', cursive;
 }
 
-h1 {
-  font-size: 5rem;
+.w {
+    background: url(images/w.jpg);
+    background-size: cover;
+    color: #b14747;
 }
 
-.set {
-  margin: 10% auto;
+.a {
+    background: url(images/a.jpg);
+    background-size: cover;
+    color: #b14747;
 }
 
-.game-over {
-  background-color: red;
+.s {
+    background: url(images/s.jpg);
+    background-size: cover;
+    color: #b14747;
 }
 
-.red {
-  color: red;
+.d {
+    background: url(images/d.jpg);
+    background-size: cover;
+    color: #b14747;
+}
+
+.j {
+    background: url(images/j.jpg);
+    background-size: cover;
+    color: #b14747;
+}
+
+.k {
+    background: url(images/k.jpg);
+    background-size: cover;
+    color: #b14747;
+}
+
+.l {
+    background: url(images/l.jpg);
+    background-size: cover;
+    color: #b14747;
 }
 
 .drum {
-  outline: none;
-  font-size: 5rem;
-  line-height: 2;
-  font-weight: 900;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
+    outline: none;
+    font-size: 50px;
+    font-weight: 900;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
+
+@media only screen and (min-width: 900px) {
+    .drum {
+        width: 120px;
+        height: 120px;
+        font-size: 70px;
+    }
 }

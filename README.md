@@ -7,6 +7,7 @@ Drum-kit using switch case and keydown eventlistener.
 * HTML  
 * CSS
 * Javascript
+* Bootstrap
 
 ### How to use 
 1. Clone the repository
